@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mairie de Lacapelle-Marival — Site officiel (maquette)</title>
+<meta name="description" content="Portail officiel de la commune de Lacapelle-Marival (Lot) : conseil municipal, démarches, services et vie locale.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+<!-- Bandeau liens rapides -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="topbar__links">
+      <span class="topbar__label">Accès rapide</span>
+      <a href="#equipe">Conseil municipal</a>
+      <a href="#">Comptes rendus &amp; délibérations</a>
+      <a href="#">Agenda de la commune</a>
+    </div>
+    <nav class="topbar__social" aria-label="Réseaux sociaux de la mairie">
+      <a href="#" aria-label="Facebook de la mairie">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 8h-2a2 2 0 0 0-2 2v10M8 12h5"/><path d="M14 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V9l-6-6Z"/></svg>
+      </a>
+      <a href="#" aria-label="Instagram de la mairie">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="#" aria-label="Compte X de la mairie">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4l16 16M20 4 4 20"/></svg>
+      </a>
+      <a href="#" aria-label="Chaîne YouTube de la mairie">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="3"/><path d="m10.5 9.5 4 2.5-4 2.5Z" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </nav>
+  </div>
+</div>
+
+<!-- En-tête -->
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="#main-content">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#1C3A3E" stroke-width="1.8"><path d="M4 21h16M5 21V10l7-6 7 6v11M9 21v-6h6v6"/><path d="M12 2v2"/></svg>
+      </span>
+      <span class="logo__text">Mairie<small>Lacapelle-Marival</small></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <ul class="main-nav__list">
+        <li><a href="#" aria-current="page">Ma mairie</a></li>
+        <li><a href="#">Mes démarches</a></li>
+        <li><a href="#">Mon quotidien</a></li>
+        <li><a href="#">Vie locale</a></li>
+        <li><a href="#">Découvrir Lacapelle</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" type="button" aria-label="Rechercher sur le site">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+      <a class="btn btn--ink" href="#">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 2.7 18a2 2 0 0 0 1.7 3h15.2a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+        <span>Signaler un problème</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu de navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Présentation de la commune">
+    <div class="hero__media" aria-hidden="true">
+      <svg viewBox="0 0 1200 640" preserveAspectRatio="xMidYMax slice" role="presentation" style="width:100%;height:100%;">
+        <rect width="1200" height="640" fill="#1C3A3E"/>
+        <rect width="1200" height="640" fill="url(#skyfade)"/>
+        <defs>
+          <linearGradient id="skyfade" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#2C4E52"/>
+            <stop offset="1" stop-color="#1C3A3E"/>
+          </linearGradient>
+        </defs>
+        <path d="M0 460 Q150 400 300 450 T600 430 T900 460 T1200 420 V640 H0 Z" fill="#274746"/>
+        <path d="M0 520 Q200 470 420 510 T800 500 T1200 480 V640 H0 Z" fill="#20403F"/>
+        <!-- Château de Lacapelle-Marival, silhouette -->
+        <g fill="#FC9720" opacity="0.9">
+          <rect x="520" y="330" width="30" height="140" />
+          <rect x="512" y="318" width="46" height="16" />
+          <rect x="600" y="360" width="90" height="110" />
+          <rect x="592" y="348" width="106" height="16" />
+          <rect x="700" y="380" width="26" height="90" />
+          <rect x="694" y="368" width="38" height="16" />
+          <rect x="558" y="420" width="42" height="50" />
+        </g>
+        <g fill="#20403F" opacity="0.8">
+          <rect x="200" y="470" width="60" height="50"/>
+          <polygon points="195,470 265,470 230,440"/>
+          <rect x="290" y="480" width="46" height="40"/>
+          <polygon points="286,480 340,480 313,455"/>
+          <rect x="860" y="470" width="54" height="50"/>
+          <polygon points="855,470 920,470 887,442"/>
+        </g>
+      </svg>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__panel">
+        <p class="hero__label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 21h16M5 21V10l7-6 7 6v11M9 21v-6h6v6"/></svg>
+          Bienvenue à la mairie
+        </p>
+        <h1>La mairie à votre écoute,<span class="highlight">un village qui avance ensemble.</span></h1>
+        <p>Portail officiel de la commune de Lacapelle-Marival : conseil municipal, démarches administratives, services du quotidien et vie locale, réunis au même endroit.</p>
+        <div class="hero__actions">
+          <a class="btn btn--outline" href="#services">
+            Découvrir les services
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+          <a class="btn btn--green" href="#">Contacter la mairie</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Équipe municipale -->
+  <section class="section" id="equipe" aria-labelledby="equipe-heading">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">L'équipe municipale</p>
+          <h2 id="equipe-heading">Le conseil municipal</h2>
+        </div>
+        <div class="team-nav">
+          <button type="button" id="team-prev" aria-label="Voir les élus précédents">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 6 9 12l6 6"/></svg>
+          </button>
+          <button type="button" id="team-next" aria-label="Voir les élus suivants">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <p style="max-width:70ch;margin-bottom:2rem;color:var(--color-ink-soft);">Le conseil municipal réunit le maire et ses adjoints, chacun en charge d'une délégation. Il se prononce en séance publique sur le budget communal et les délibérations qui engagent le village.</p>
+
+      <div class="team-track" id="team-track">
+        <article class="team-card">
+          <div class="team-card__media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div>
+          <div class="team-card__body">
+            <h3>Jean Delmas</h3>
+            <p class="team-card__role">Maire de Lacapelle-Marival</p>
+            <a class="team-card__link" href="#">Voir la fiche<span class="visually-hidden"> de Jean Delmas</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="team-card">
+          <div class="team-card__media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div>
+          <div class="team-card__body">
+            <h3>Sylvie Roques</h3>
+            <p class="team-card__role">1ère adjointe — Urbanisme et travaux</p>
+            <a class="team-card__link" href="#">Voir la fiche<span class="visually-hidden"> de Sylvie Roques</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="team-card">
+          <div class="team-card__media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div>
+          <div class="team-card__body">
+            <h3>Bernard Combes</h3>
+            <p class="team-card__role">2e adjoint — Affaires scolaires et jeunesse</p>
+            <a class="team-card__link" href="#">Voir la fiche<span class="visually-hidden"> de Bernard Combes</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="team-card">
+          <div class="team-card__media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div>
+          <div class="team-card__body">
+            <h3>Martine Fau</h3>
+            <p class="team-card__role">3e adjointe — Vie associative et culture</p>
+            <a class="team-card__link" href="#">Voir la fiche<span class="visually-hidden"> de Martine Fau</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section--dark" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-intro">
+        <p class="eyebrow">Découvrez nos services</p>
+        <h2 id="services-heading">Les services de la mairie</h2>
+        <p>Les services municipaux sont organisés par grands domaines de la vie quotidienne. Voici les principales missions assurées par la mairie et ses agents.</p>
+      </div>
+
+      <div class="services-tabs" role="tablist" aria-label="Services de la mairie">
+        <button role="tab" id="tab-1" aria-selected="true" aria-controls="panel-1" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+          État civil &amp; démarches
+        </button>
+        <button role="tab" id="tab-2" aria-selected="false" aria-controls="panel-2" type="button" tabindex="-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 20h18M5 20V9l7-5 7 5v11M9 20v-6h6v6"/></svg>
+          Urbanisme &amp; voirie
+        </button>
+        <button role="tab" id="tab-3" aria-selected="false" aria-controls="panel-3" type="button" tabindex="-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8 12 4l10 4-10 4Z"/><path d="M6 10v6c0 1.1 2.7 2 6 2s6-.9 6-2v-6M22 8v7"/></svg>
+          École &amp; jeunesse
+        </button>
+        <button role="tab" id="tab-4" aria-selected="false" aria-controls="panel-4" type="button" tabindex="-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.3c2.4.4 4.5 2.3 4.5 5.7"/></svg>
+          Vie associative
+        </button>
+        <button role="tab" id="tab-5" aria-selected="false" aria-controls="panel-5" type="button" tabindex="-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3 6 10h3l-4 6h4v5h6v-5h4l-4-6h3Z"/></svg>
+          Cadre de vie &amp; patrimoine
+        </button>
+      </div>
+
+      <div class="service-panel" id="panel-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+        <div class="service-panel__media" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+        </div>
+        <div class="service-panel__text">
+          <h3>État civil &amp; démarches</h3>
+          <p>Le service accueille les habitants pour les démarches liées à l'état civil et à la vie citoyenne de la commune.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Naissances, mariages et décès</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Carte nationale d'identité et passeport</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Inscription sur les listes électorales</li>
+          </ul>
+          <a class="btn btn--outline-light" href="#">Prendre rendez-vous</a>
+        </div>
+      </div>
+
+      <div class="service-panel" id="panel-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0" hidden>
+        <div class="service-panel__media" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 20h18M5 20V9l7-5 7 5v11M9 20v-6h6v6"/></svg>
+        </div>
+        <div class="service-panel__text">
+          <h3>Urbanisme &amp; voirie</h3>
+          <p>Le service instruit les demandes d'urbanisme et veille à l'entretien de la voirie communale.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Permis de construire et déclarations préalables</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Entretien des routes et de l'éclairage public</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Raccordements et réseaux</li>
+          </ul>
+          <a class="btn btn--outline-light" href="#">Consulter le service urbanisme</a>
+        </div>
+      </div>
+
+      <div class="service-panel" id="panel-3" role="tabpanel" aria-labelledby="tab-3" tabindex="0" hidden>
+        <div class="service-panel__media" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 8 12 4l10 4-10 4Z"/><path d="M6 10v6c0 1.1 2.7 2 6 2s6-.9 6-2v-6M22 8v7"/></svg>
+        </div>
+        <div class="service-panel__text">
+          <h3>École &amp; jeunesse</h3>
+          <p>La commune gère les affaires scolaires en lien avec l'école du village et les familles.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Inscriptions scolaires</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Cantine scolaire</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Garderie périscolaire</li>
+          </ul>
+          <a class="btn btn--outline-light" href="#">Inscrire mon enfant</a>
+        </div>
+      </div>
+
+      <div class="service-panel" id="panel-4" role="tabpanel" aria-labelledby="tab-4" tabindex="0" hidden>
+        <div class="service-panel__media" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.3c2.4.4 4.5 2.3 4.5 5.7"/></svg>
+        </div>
+        <div class="service-panel__text">
+          <h3>Vie associative</h3>
+          <p>La mairie soutient les associations locales et met à disposition ses équipements pour la vie du village.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Réservation de la salle des fêtes</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Subventions aux associations</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Calendrier des manifestations</li>
+          </ul>
+          <a class="btn btn--outline-light" href="#">Annuaire des associations</a>
+        </div>
+      </div>
+
+      <div class="service-panel" id="panel-5" role="tabpanel" aria-labelledby="tab-5" tabindex="0" hidden>
+        <div class="service-panel__media" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 3 6 10h3l-4 6h4v5h6v-5h4l-4-6h3Z"/></svg>
+        </div>
+        <div class="service-panel__text">
+          <h3>Cadre de vie &amp; patrimoine</h3>
+          <p>La commune veille au cadre de vie de ses habitants et valorise son patrimoine, à commencer par son château.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Collecte des déchets et tri sélectif</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Entretien des espaces verts</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Château de Lacapelle-Marival et sentiers de randonnée</li>
+          </ul>
+          <a class="btn btn--outline-light" href="#">Voir les jours de collecte</a>
+        </div>
+      </div>
+
+      <div class="view-all">
+        <a class="btn btn--green" href="#">Voir tous les services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notre mairie -->
+  <section class="section" id="mairie" aria-labelledby="about-heading">
+    <div class="container about">
+      <div class="about__media">
+        <div class="about__media-main" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1C3A3E" stroke-width="1.1"><path d="M12 3 6 10h3l-4 6h4v5h6v-5h4l-4-6h3Z"/></svg>
+        </div>
+        <div class="about__media-float" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1C3A3E" stroke-width="1.1"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.3c2.4.4 4.5 2.3 4.5 5.7"/></svg>
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="eyebrow">Notre mairie</p>
+        <h2 id="about-heading">Une administration proche de ses habitants</h2>
+        <p>La mairie de Lacapelle-Marival assure le fonctionnement des services publics de la commune et accompagne les habitants dans leurs démarches du quotidien, du guichet d'accueil jusqu'aux séances du conseil municipal.</p>
+
+        <div class="about__points">
+          <div class="about__point">
+            <span class="about__point-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span>
+            <div>
+              <h3>Transparence</h3>
+              <p>Comptes rendus de conseil municipal, délibérations et budget communal consultables par tous les habitants.</p>
+            </div>
+          </div>
+          <div class="about__point">
+            <span class="about__point-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/><circle cx="12" cy="8" r="4"/></svg></span>
+            <div>
+              <h3>Proximité</h3>
+              <p>Un accueil en mairie et une réponse aux demandes des habitants dans des délais courts.</p>
+            </div>
+          </div>
+        </div>
+
+        <a class="btn btn--outline" href="#">En savoir plus sur la mairie</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Mairie de Lacapelle-Marival — maquette de travail. Rubriques Mes démarches, Mon quotidien, Vie locale, Découvrir Lacapelle et pied de page complet à venir.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" type="button" aria-label="Retourner en haut de page">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 15 7-7 7 7"/></svg>
+</button>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
